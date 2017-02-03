@@ -28,6 +28,8 @@ virtualenv -p \`which python3\` digitalbanking-transferservice
 cd digitalbanking-transferservice  
 source bin/activate  
 
+django-admin.py startproject poc_bank  
+
 cd poc_bank  
 python manage.py makemigrations fund_transfer  
 python manage.py migrate  
