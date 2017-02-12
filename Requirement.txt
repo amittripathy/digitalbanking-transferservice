@@ -1,3 +1,0 @@
-Python==3.5.2
-VirtualEnv==15.0.3 
-Django==1.10
